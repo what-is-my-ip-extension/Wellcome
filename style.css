@@ -1,0 +1,54 @@
+/* simple, self-contained styling */
+
+:root {
+  --gray-bg: #eeeeee;
+  --text: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--gray-bg);
+  color: var(--text);
+  line-height: 1.4;
+}
+
+.wrapper {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2rem; /* ≈51 px */
+  margin: 0 0 28px;
+  font-weight: 700;
+}
+
+.lead,
+.sub {
+  font-size: 1.25rem; /* ≈20 px */
+  margin: 0 auto 56px;
+  max-width: 640px;
+}
+
+.sub {
+  margin-top: 90px;
+  margin-bottom: 28px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.step {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.08);
+}
